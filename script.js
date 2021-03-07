@@ -40,7 +40,6 @@ const checarNumero = () => {
       ds.pontos.textContent = pontos;
     }
 }
-
 const deNovo = () => {
 pontos = 20;
 ds.pontos.textContent = pontos;
@@ -51,7 +50,6 @@ numeroGerado = Math.trunc(Math.random() * 20) + 1;
 ds.numeroDisplay.style.width = '15rem';
 document.querySelector('body').style.backgroundColor = '#222';
 }
-
 ds.adivinhe.addEventListener("input", getNumeroInput);
 ds.btnChecar.addEventListener("click", checarNumero);
 ds.btnDeNovo.addEventListener("click", deNovo);
